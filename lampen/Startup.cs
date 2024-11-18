@@ -1,6 +1,7 @@
 ﻿namespace lampen
 {
-    public class _
+    public class Startup
     {
+
     }
 }

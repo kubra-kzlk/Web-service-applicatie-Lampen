@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\project_API\\lampen\\lampen.csproj",
+      "projectUniqueName": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\lampen.csproj",
       "projectName": "lampen",
-      "projectPath": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\project_API\\lampen\\lampen.csproj",
+      "projectPath": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\lampen.csproj",
       "packagesPath": "C:\\Users\\flowe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\project_API\\lampen\\obj\\",
+      "outputPath": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\flowe\\AppData\\Roaming\\NuGet\\NuGet.Config",
