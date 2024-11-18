@@ -30,5 +30,25 @@ namespace lampen.Controllers
             if (manufacturer == null) return NotFound();
             return manufacturer;
         }
+
+        [HttpPost]
+        [Route("/api/manufacturers/create")]
+        public async Task<ActionResult>? CreateManufacturer(Manufacturer newManufacturer)
+        {
+            if (newManufacturer == null)
+            {
+                return BadRequest("Manufacturer cannot be null");
+            }
+
+            if (string.IsNullOrEmpty(newManufacturer.Naam))
+            {
+                return BadRequest("Manufacturer name is required.");
+            }
+
+            await _manufacturerService.AddAsync(newManufacturer);
+            return Ok();
+        }
+
+
     }
 }

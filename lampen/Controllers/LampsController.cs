@@ -45,6 +45,34 @@ namespace lampen.Controllers
                 Stijlen = stijlen
             };
         }
+
+        [HttpPost]
+        [Route("/api/lamps/create")]
+        public async Task<ActionResult>? CreateLamp(Lamp newLamp)
+        {
+            if (newLamp == null)
+            {
+                return BadRequest("Lamp cannot be null");
+            }
+
+            var manufacturer = await _manufacturerService.GetByIdAsync(newLamp.FabrikantId);
+            if (manufacturer == null)
+            {
+                return BadRequest("Invalid manufacturer ID.");
+            }
+
+            var allStyles = await _styleService.GetAllAsync();
+            var invalidStyleIds = newLamp.StijlIds.Except(allStyles.Select(s => s.Id)).ToList();
+            if (invalidStyleIds.Any())
+            {
+                return BadRequest($"Invalid style IDs: {string.Join(", ", invalidStyleIds)}");
+            }
+
+            await _lampService.AddAsync(newLamp);
+            return Ok();
+        }
+
+
     }
 
 }

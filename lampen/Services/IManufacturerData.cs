@@ -6,5 +6,6 @@ namespace lampen.Services
     {
         Task<List<Manufacturer>> GetAllAsync();
         Task<Manufacturer?> GetByIdAsync(int id);
+        Task<Manufacturer> AddAsync(Manufacturer manufacturer);
     }
 }

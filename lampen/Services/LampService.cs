@@ -43,6 +43,18 @@ namespace lampen.Services
         {
             return await Task.FromResult(_lampen.FirstOrDefault(l => l.Id == id));
         }
+        public async Task<Lamp> AddAsync(Lamp lamp) // Implementeert de nieuwe methode
+        {
+            // Genereer een nieuw ID voor de lamp
+            var newId = _lampen.Any() ? _lampen.Max(l => l.Id) + 1 : 1;
+            lamp.Id = newId;
+
+            // Voeg de lamp toe aan de lijst
+            _lampen.Add(lamp);
+
+            // Simuleer een asynchrone operatie
+            return await Task.FromResult(lamp);
+        }
     }
 
 }

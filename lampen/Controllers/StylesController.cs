@@ -30,6 +30,25 @@ namespace lampen.Controllers
             if (style == null) return NotFound();
             return style;
         }
+        [HttpPost]
+        [Route("/api/styles/create")]
+        public async Task<ActionResult>? CreateStyle(Style newStyle)
+        {
+            if (newStyle == null)
+            {
+                return BadRequest("Style cannot be null");
+            }
+
+            if (string.IsNullOrEmpty(newStyle.Naam))
+            {
+                return BadRequest("Style name is required.");
+            }
+
+            await _styleService.AddAsync(newStyle);
+            return Ok();
+        }
+
+
     }
 
 }

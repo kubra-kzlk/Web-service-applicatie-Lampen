@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lampen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0a849afe48973719eaf645febe07873fcef6249")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af9aefd8f34658645360528d65b12ba54ffca609")]
 [assembly: System.Reflection.AssemblyProductAttribute("lampen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lampen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

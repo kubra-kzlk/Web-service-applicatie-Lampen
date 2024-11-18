@@ -6,5 +6,6 @@ namespace lampen.Services
     {
         Task<List<Style>> GetAllAsync();
         Task<Style?> GetByIdAsync(int id);
+        Task<Style> AddAsync(Style style);
     }
 }

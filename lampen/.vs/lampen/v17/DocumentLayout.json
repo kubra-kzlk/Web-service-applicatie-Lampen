@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\lampservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\lampservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\manufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\manufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\styleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\styleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\models\\lamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:models\\lamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\controllers\\lampscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:controllers\\lampscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\styleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\styleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\manufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\manufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\lampservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\lampservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\istyledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\istyledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\inmemorylampdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\inmemorylampdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\imanufacturerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\imanufacturerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\ilampdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\ilampdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\models\\style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:models\\style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\controllers\\stylescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,24 +55,8 @@
       "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:controllers\\manufacturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\inmemorylampdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\inmemorylampdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\istyledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\istyledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\services\\imanufacturerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:services\\imanufacturerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\models\\lamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:models\\lamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|c:\\users\\flowe\\documents\\2_api_ontwikkeling\\w4\\project_api\\lampen\\controllers\\lampscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F13D2D-218D-477B-B4A3-C7E0A163841F}|lampen.csproj|solutionrelative:controllers\\lampscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,21 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 34,
+          "SelectedChildIndex": 30,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManufacturersController.cs",
-              "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Controllers\\ManufacturersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ManufacturersController.cs",
-              "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Controllers\\ManufacturersController.cs",
-              "RelativeToolTip": "Controllers\\ManufacturersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:45:20.736Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -167,116 +158,143 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "Style.cs",
+              "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Models\\Style.cs",
+              "RelativeDocumentMoniker": "Models\\Style.cs",
+              "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Models\\Style.cs",
+              "RelativeToolTip": "Models\\Style.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T20:11:27.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManufacturersController.cs",
+              "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Controllers\\ManufacturersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManufacturersController.cs",
+              "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Controllers\\ManufacturersController.cs",
+              "RelativeToolTip": "Controllers\\ManufacturersController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAmwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:45:20.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "StylesController.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Controllers\\StylesController.cs",
               "RelativeDocumentMoniker": "Controllers\\StylesController.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Controllers\\StylesController.cs",
               "RelativeToolTip": "Controllers\\StylesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAmwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:43:58.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "IStyleData.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\IStyleData.cs",
               "RelativeDocumentMoniker": "Services\\IStyleData.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\IStyleData.cs",
               "RelativeToolTip": "Services\\IStyleData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:39:14.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "IManufacturerData.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\IManufacturerData.cs",
               "RelativeDocumentMoniker": "Services\\IManufacturerData.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\IManufacturerData.cs",
               "RelativeToolTip": "Services\\IManufacturerData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:38:29.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ILampData.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\ILampData.cs",
               "RelativeDocumentMoniker": "Services\\ILampData.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\ILampData.cs",
               "RelativeToolTip": "Services\\ILampData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:38:01.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "InMemoryLampData.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\InMemoryLampData.cs",
               "RelativeDocumentMoniker": "Services\\InMemoryLampData.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\InMemoryLampData.cs",
               "RelativeToolTip": "Services\\InMemoryLampData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAiwDsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:35:38.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "LampsController.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Controllers\\LampsController.cs",
               "RelativeDocumentMoniker": "Controllers\\LampsController.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Controllers\\LampsController.cs",
               "RelativeToolTip": "Controllers\\LampsController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAqwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:14:12.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "Lamp.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Models\\Lamp.cs",
               "RelativeDocumentMoniker": "Models\\Lamp.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Models\\Lamp.cs",
               "RelativeToolTip": "Models\\Lamp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:13:31.207Z"
+              "WhenOpened": "2024-11-18T14:13:31.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Manufacturer.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Models\\Manufacturer.cs",
               "RelativeDocumentMoniker": "Models\\Manufacturer.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Models\\Manufacturer.cs",
               "RelativeToolTip": "Models\\Manufacturer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:13:30.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABGAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:10:57.219Z",
               "EditorCaption": ""
@@ -289,33 +307,33 @@
               "RelativeDocumentMoniker": "Services\\StyleService.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\StyleService.cs",
               "RelativeToolTip": "Services\\StyleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:06:16.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ManufacturerService.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\ManufacturerService.cs",
               "RelativeDocumentMoniker": "Services\\ManufacturerService.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\ManufacturerService.cs",
               "RelativeToolTip": "Services\\ManufacturerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:06:13.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LampService.cs",
               "DocumentMoniker": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\LampService.cs",
               "RelativeDocumentMoniker": "Services\\LampService.cs",
               "ToolTip": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\w4\\project_API\\lampen\\Services\\LampService.cs",
               "RelativeToolTip": "Services\\LampService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwCYAAAAyAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAiwD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:06:10.912Z",
               "EditorCaption": ""
