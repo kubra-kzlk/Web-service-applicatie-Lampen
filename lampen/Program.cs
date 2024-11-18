@@ -1,3 +1,5 @@
+using lampen.Services;
+
 namespace lampen
 {
     public class Program
@@ -5,6 +7,10 @@ namespace lampen
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            // Register interfaces and services
+            builder.Services.AddSingleton<ILampData, InMemoryLampData>();
+            builder.Services.AddSingleton<IManufacturerData, ManufacturerService>();
+            builder.Services.AddSingleton<IStyleData, StyleService>();
 
             // Add services to the container.
 
@@ -23,10 +29,7 @@ namespace lampen
             }
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
-
             app.MapControllers();
 
             app.Run();

@@ -8,21 +8,35 @@ namespace lampen.Controllers
     [Route("api/[controller]")]
     public class LampsController : Controller
     {
-        private readonly LampService _lampService = new();
-        private readonly ManufacturerService _manufacturerService = new();
-        private readonly StyleService _styleService = new();
 
+        private readonly ILampData _lampService;
+        private readonly IManufacturerData _manufacturerService;
+        private readonly IStyleData _styleService;
+
+        // Constructor to inject services
+        //Inject the services via Dependency Injection (DI) instead of creating new instances directly inside the controllers.
+        public LampsController(ILampData lampService, IManufacturerData manufacturerService, IStyleData styleService)
+        { //Inject the interfaces (ILampData, IManufacturerData, IStyleData) in the controller constructor.
+            _lampService = lampService;
+            _manufacturerService = manufacturerService;
+            _styleService = styleService;
+        }
+        //Change method signatures to use async and await for asynchronous operations, based on your service methods that return Task<T>
         [HttpGet]
-        public ActionResult<List<Lamp>> GetAll() => _lampService.GetAll();
+        public async Task<ActionResult<List<Lamp>>> GetAll()
+        {
+            var lamps = await _lampService.GetAllAsync();
+            return Ok(lamps);
+        }
 
         [HttpGet("{id}")]
-        public ActionResult<object> GetById(int id)
+        public async Task<ActionResult<object>> GetById(int id)
         {
-            var lamp = _lampService.GetById(id);
+            var lamp = await _lampService.GetByIdAsync(id);
             if (lamp == null) return NotFound();
 
-            var fabrikant = _manufacturerService.GetById(lamp.FabrikantId);
-            var stijlen = _styleService.GetAll().Where(s => lamp.StijlIds.Contains(s.Id)).ToList();
+            var fabrikant = await _manufacturerService.GetByIdAsync(lamp.FabrikantId);
+            var stijlen = (await _styleService.GetAllAsync()).Where(s => lamp.StijlIds.Contains(s.Id)).ToList();
 
             return new
             {

@@ -2,7 +2,7 @@
 
 namespace lampen.Services
 {
-    public class StyleService
+    public class StyleService : IStyleData
     {
         private readonly List<Style> _stijlen = new()
         {
@@ -11,9 +11,14 @@ namespace lampen.Services
             new Style { Id = 3, Naam = "Vintage", Beschrijving = "Geïnspireerd op klassieke ontwerpen uit het verleden." }
         };
 
-        public List<Style> GetAll() => _stijlen;
+        public async Task<List<Style>> GetAllAsync()
+        {
+            return await Task.FromResult(_stijlen);
+        }
 
-        public Style? GetById(int id) => _stijlen.FirstOrDefault(s => s.Id == id);
-
+        public async Task<Style?> GetByIdAsync(int id)
+        {
+            return await Task.FromResult(_stijlen.FirstOrDefault(s => s.Id == id));
+        }
     }
 }

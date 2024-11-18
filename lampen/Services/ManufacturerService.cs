@@ -2,7 +2,7 @@
 
 namespace lampen.Services
 {
-    public class ManufacturerService
+    public class ManufacturerService: IManufacturerData
     {
         private readonly List<Manufacturer> _fabrikanten = new()
         {
@@ -10,9 +10,14 @@ namespace lampen.Services
             new Manufacturer { Id = 2, Naam = "IKEA", Land = "Zweden", Beschrijving = "Bekend om betaalbare en stijlvolle woningdecoratie." }
         };
 
-        public List<Manufacturer> GetAll() => _fabrikanten;
+        public async Task<List<Manufacturer>> GetAllAsync()
+        {
+            return await Task.FromResult(_fabrikanten);
+        }
 
-        public Manufacturer? GetById(int id) => _fabrikanten.FirstOrDefault(m => m.Id == id);
-
+        public async Task<Manufacturer?> GetByIdAsync(int id)
+        {
+            return await Task.FromResult(_fabrikanten.FirstOrDefault(m => m.Id == id));
+        }
     }
 }

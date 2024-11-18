@@ -2,7 +2,7 @@
 
 namespace lampen.Services
 {
-    public class LampService :ILampData
+    public class InMemoryLampData : ILampData
     {
         private readonly List<Lamp> _lampen = new()
         {
@@ -33,7 +33,6 @@ namespace lampen.Services
                 StijlIds = new List<int> { 1 }
             }
         };
-
         public async Task<List<Lamp>> GetAllAsync()
         {
             return await Task.FromResult(_lampen);
@@ -44,6 +43,4 @@ namespace lampen.Services
             return await Task.FromResult(_lampen.FirstOrDefault(l => l.Id == id));
         }
     }
-
 }
-

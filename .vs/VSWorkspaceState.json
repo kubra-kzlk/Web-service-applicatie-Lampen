@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\lampen"
+    "\\lampen",
+    "\\lampen\\Controllers",
+    "\\lampen\\Services"
   ],
-  "SelectedNode": "\\lampen\\lampen.sln",
+  "SelectedNode": "\\lampen\\Services\\StyleService.cs",
   "PreviewInSolutionExplorer": false
 }

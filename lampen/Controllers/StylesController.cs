@@ -8,15 +8,25 @@ namespace lampen.Controllers
     [Route("api/[controller]")]
     public class StylesController : Controller
     {
-        private readonly StyleService _styleService = new();
+        private readonly IStyleData _styleService;
+
+        // Constructor to inject service
+        public StylesController(IStyleData styleService)
+        {
+            _styleService = styleService;
+        }
 
         [HttpGet]
-        public ActionResult<List<Style>> GetAll() => _styleService.GetAll();
+        public async Task<ActionResult<List<Style>>> GetAll()
+        {
+            var styles = await _styleService.GetAllAsync();
+            return Ok(styles);
+        }
 
         [HttpGet("{id}")]
-        public ActionResult<Style> GetById(int id)
+        public async Task<ActionResult<Style>> GetById(int id)
         {
-            var style = _styleService.GetById(id);
+            var style = await _styleService.GetByIdAsync(id);
             if (style == null) return NotFound();
             return style;
         }
