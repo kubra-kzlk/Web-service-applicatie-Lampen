@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "3vBgcF1zkypSPuBjd8V58LgYuu4pfySGWh9VrFbriWrfZJ1F1OBjJ6p6FQUqufOlmP3XOVZkcjaT3XIc8E9Gqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\flowe\\Documents\\2_API_Ontwikkeling\\project_API\\lampen\\lampen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flowe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\flowe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\flowe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\flowe\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\flowe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\flowe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
