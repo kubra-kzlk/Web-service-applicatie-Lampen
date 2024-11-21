@@ -1,0 +1,11 @@
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\lampen.exe
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\appsettings.Development.json
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\appsettings.json
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\lampen.dll
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\lampen.deps.json
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\lampen.runtimeconfig.json
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\lampen.pdb
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\Microsoft.OpenApi.dll
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
