@@ -1,5 +1,5 @@
 # vak API Ontwikkeling 2024 2e jaar
-API opbouw met 3 entiteiten die een relatie met elkaar hebben. 
+RESTful API opbouw met ASP.NET Core. de API heeft 3 entiteiten die een relatie met elkaar hebben. 
   * 15 API ENDPOINTS:
      - 6 GET-endpoints (3 voor lijsten, 3 voor details)
      - 3 POST-endpoints (voor het toevoegen van entiteiten)
