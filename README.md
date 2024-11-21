@@ -1,6 +1,10 @@
 # vak API Ontwikkeling 2024 2e jaar
 API opbouw met 3 entiteiten die een relatie met elkaar hebben. 
-  * API ENDPOINTS: 3 lijsten van de entiteiten opvragen, obv een unieke id
+  * 15 API ENDPOINTS:
+     - 6 GET-endpoints (3 voor lijsten, 3 voor details)
+     - 3 POST-endpoints (voor het toevoegen van entiteiten)
+     - 3 PUT-endpoints (voor het bijwerken van entiteiten)
+     - 3 DELETE-endpoints (voor het verwijderen van entiteiten)
   * Taal: C#
   * Technologieën:
      - ASP.NET Core voor het bouwen van de RESTful API.
