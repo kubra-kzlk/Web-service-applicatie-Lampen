@@ -4,8 +4,10 @@ namespace lampen.Services
 {
     public interface ILampData
     {
-        Task<List<Lamp>> GetAllAsync();
-        Task<Lamp?> GetByIdAsync(int id);
-        Task<Lamp> AddAsync(Lamp lamp);
+        Task<List<Lamp>> GetAllLamps();
+        Task<Lamp?> GetLampById(int id);
+        Task<Lamp> CreateLamp(Lamp lamp);
+        Task UpdateLamp(Lamp lamp);
+        Task DeleteLamp(int id);
     }
 }

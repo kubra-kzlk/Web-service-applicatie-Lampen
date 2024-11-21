@@ -1,11 +1,17 @@
-﻿namespace lampen.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace lampen.Models
 {
     public class Manufacturer
     {
         public int Id { get; set; }
-        public string Naam { get; set; } = string.Empty;
-        public string Land { get; set; } = string.Empty;
-        public string Beschrijving { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Name is required.")]
+        public string Name { get; set; } = string.Empty;
+
+        public string Country { get; set; } = string.Empty;
+
+        public string Description { get; set; } = string.Empty;
     }
 
 }

@@ -17,37 +17,72 @@ namespace lampen.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Style>>> GetAll()
+        [Route("/api/styles")]
+        public async Task<ActionResult> GetAllStyles()
         {
-            var styles = await _styleService.GetAllAsync();
+            var styles = _styleService.GetAllStyles();
             return Ok(styles);
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Style>> GetById(int id)
+        [HttpGet]
+        [Route("api/styles/{id}")]
+        public async Task<ActionResult> GetStyleById(int id)
         {
-            var style = await _styleService.GetByIdAsync(id);
+            var style = await _styleService.GetStyleById(id);
             if (style == null) return NotFound();
-            return style;
+            return Ok(style);
         }
+
         [HttpPost]
         [Route("/api/styles/create")]
         public async Task<ActionResult>? CreateStyle(Style newStyle)
         {
-            if (newStyle == null)
+            if (!ModelState.IsValid)// Check if model is valid
             {
-                return BadRequest("Style cannot be null");
+                return BadRequest(ModelState);  // Return 400 with validation errors
             }
 
-            if (string.IsNullOrEmpty(newStyle.Naam))
-            {
-                return BadRequest("Style name is required.");
-            }
+            // Add the style
+            await _styleService.CreateStyle(newStyle);
 
-            await _styleService.AddAsync(newStyle);
-            return Ok();
+            // Return Created response
+            return CreatedAtAction(nameof(GetStyleById), new { id = newStyle.Id }, newStyle);
+
         }
 
+        [HttpPut]
+        [Route("api/styles/{id}")]
+        public async Task<ActionResult> UpdateStyle(int id, [FromBody] Style updatedStyle)
+        {
+            if (!ModelState.IsValid) // Validate model
+            {
+                return BadRequest(ModelState);
+            }
+
+            var styleUpdate = await _styleService.GetStyleById(id);
+            if (styleUpdate == null)
+            {
+                return NotFound();
+            }
+            // Update style
+            styleUpdate.Name = updatedStyle.Name;
+            styleUpdate.Description = updatedStyle.Description;
+            await _styleService.UpdateStyle(styleUpdate);
+            return NoContent();  // 204 No Content on successful update
+        }
+
+        [HttpDelete]
+        [Route("api/styles/{id}")]
+        public async Task<ActionResult> DeleteStyle(int id)
+        {
+            var style = await _styleService.GetStyleById(id);
+            if (style == null)
+            {
+                return NotFound();
+            }
+            await _styleService.DeleteStyle(id);
+            return NoContent();  // 204 No Content on successful deletion
+        }
 
     }
 
