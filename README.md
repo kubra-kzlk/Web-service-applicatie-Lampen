@@ -1,5 +1,5 @@
 # vak API Ontwikkeling 2024 2e jaar
-DOEL: API opbouw met 3 entiteiten die een relatie met elkaar hebben. 
+API opbouw met 3 entiteiten die een relatie met elkaar hebben. 
   * API ENDPOINTS: 3 lijsten van de entiteiten opvragen, obv een unieke id
   * Taal: C#
   * Technologieën:
