@@ -5,8 +5,8 @@ DOEL: API opbouw met 3 entiteiten die een relatie met elkaar hebben.
   * Taal: C#
   * Technologieën:
      - ASP.NET Core voor het bouwen van de RESTful API.
-    Swagger (API-documentatie en testing via Swagger UI)
-    HTTP (Protocol voor communicatie tussen client en server) methoden: GET POST PUT DELETE
-    JSON
-    Data Annotations (Validatie van data in C#)
+     - Swagger (API-documentatie en testing via Swagger UI)
+     - HTTP (Protocol voor communicatie tussen client en server) methoden: GET POST PUT DELETE
+     - JSON
+     - Data Annotations (Validatie van data in C#)
     
