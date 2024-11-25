@@ -96,3 +96,8 @@ C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\obj\Debug\net6.0\
 C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\obj\Debug\net6.0\lampen.csproj.Up2Date
 C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\obj\Debug\net6.0\lampen.genruntimeconfig.cache
 C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\obj\Debug\net6.0\ref\lampen.dll
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\bin\Debug\net6.0\publish\web.config
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\bin\Debug\net6.0\publish\lampen.deps.json
+C:\Users\flowe\Documents\2_API_Ontwikkeling\project_API\lampen\bin\Debug\net6.0\publish\lampen.runtimeconfig.json
