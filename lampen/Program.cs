@@ -11,27 +11,26 @@ namespace lampen
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-       
-
             // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            // Retrieve the value of the InMemoryDatabase setting from appsettings.json
             var InMemoryDatabase = builder.Configuration.GetValue<bool>("InMemoryDatabase");
             if (InMemoryDatabase)
             {
-                // Register interfaces and services
+                // Register in-memory implementations
                 builder.Services.AddSingleton<ILampData, InMemoryLampData>();
                 builder.Services.AddSingleton<IManufacturerData, ManufacturerService>();
                 builder.Services.AddSingleton<IStyleData, StyleService>();
             }
             else
-            {
+            {    // Register SQL Server implementations using DatabaseContext
                 builder.Services.AddDbContext<DatabaseContext>(options =>
                 {
                     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-                });
+                });// Register the services to work with the actual database
                 builder.Services.AddSingleton<ILampData, InMemoryLampData>();
                 builder.Services.AddSingleton<IManufacturerData, ManufacturerService>();
                 builder.Services.AddSingleton<IStyleData, StyleService>();
