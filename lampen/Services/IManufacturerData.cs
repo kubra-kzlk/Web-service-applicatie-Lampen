@@ -7,7 +7,7 @@ namespace lampen.Services
         Task<List<Manufacturer>> GetAllManufacturers();
         Task<Manufacturer?> GetManufacturerById(int id);
         Task<Manufacturer> CreateManufacturer(Manufacturer manufacturer);
-        Task UpdateManufacturer(Manufacturer manufacturer);  // Update method
-        Task DeleteManufacturer(int id);  // Delete method
+        Task UpdateManufacturer(Manufacturer manufacturer); 
+        Task DeleteManufacturer(int id); 
     }
 }

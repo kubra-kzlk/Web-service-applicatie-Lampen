@@ -51,9 +51,7 @@ namespace lampen.Data
             builder.HasOne<Manufacturer>()
                 .WithMany()
                 .HasForeignKey(l => l.ManufacturerId)
-                .OnDelete(DeleteBehavior.Cascade); // Adjust delete behavior as needed
-
-            // Note: StyleIds is a list and would typically require a join table for many-to-many relationships
+                .OnDelete(DeleteBehavior.Cascade); 
         }
     }
 }
