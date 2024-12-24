@@ -7,7 +7,7 @@ RESTful API opbouw met ASP.NET Core applicatie. de API heeft 3 entiteiten die ee
      - 3 DELETE-endpoints (voor het verwijderen van entiteiten)
   * Taal: C#
   * Technologieën:
-     - ASP.NET Core voor het bouwen van de RESTful API.
+     - ASP.NET Core (webdevelopment framework die webapp's op .NET platform bouwt) voor het bouwen van de RESTful API.
      - Swagger (API-documentatie en testing via Swagger UI)
      - HTTP (Protocol voor communicatie tussen client en server) methoden: GET POST PUT DELETE
      - JSON
