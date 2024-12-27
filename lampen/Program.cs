@@ -31,11 +31,13 @@ namespace lampen
                 {
                     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
                 });// Register the services to work with the actual database
-                builder.Services.AddSingleton<ILampData, InMemoryLampData>();
-                builder.Services.AddSingleton<IManufacturerData, ManufacturerService>();
-                builder.Services.AddSingleton<IStyleData, StyleService>();
+                builder.Services.AddScoped<ILampData, LampServiceDb>();
+                builder.Services.AddScoped<IManufacturerData, ManufacturerServiceDb>();
+                builder.Services.AddScoped<IStyleData, StyleServiceDb>();
             }
 
+            
+            
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -59,7 +61,6 @@ namespace lampen
             {
                 logger.LogInformation("Using SQL database.");
             }
-
             app.Run();
         }
     }
