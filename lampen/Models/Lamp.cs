@@ -4,6 +4,7 @@ namespace lampen.Models
 {
     public class Lamp
     {
+        [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Lamp name is required.")] //[Required] data annotations for validation, velden voldoen aan verwachte vereisten

@@ -4,6 +4,7 @@ namespace lampen.Models
 {
     public class Manufacturer
     {
+        [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Name is required.")]

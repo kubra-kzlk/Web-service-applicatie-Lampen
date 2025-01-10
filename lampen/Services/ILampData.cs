@@ -6,7 +6,7 @@ namespace lampen.Services
     {
         Task<List<Lamp>> GetAllLamps();
         Task<Lamp?> GetLampById(int id);
-        Task<Lamp> CreateLamp(Lamp lamp);
+        Task<Lamp> AddLamp(Lamp lamp);
         Task UpdateLamp(Lamp lamp);
         Task DeleteLamp(int id);
     }
