@@ -1,5 +1,11 @@
 # vak API Ontwikkeling 2024 2e jaar
-RESTful API opbouw met ASP.NET Core applicatie. de API heeft 3 entiteiten die een relatie met elkaar hebben. 
+
+Web Services-applicatie (RESTful API) opbouw met ASP.NET Core. Een webservice is een applicatie die communicatie tussen systemen mogelijk maakt via internetprotocollen. Dit wordt gedaan adhv de REST API manier:  HTTP-methoden (GET, POST, PUT, DELETE) en gebruikt dataformaat JSON.
+
+de API heeft 3 entiteiten en zijn als volgt gerelateerd:
+•	Een lamp verwijst naar een fabrikant via een fabrikantId.
+•	Een lamp heeft een lijst van stijlen via hun stijlIds.
+
   * 15 API ENDPOINTS:
      - 6 GET-endpoints (3 voor lijsten, 3 voor details)
      - 3 POST-endpoints (voor het toevoegen van entiteiten)
@@ -12,5 +18,8 @@ RESTful API opbouw met ASP.NET Core applicatie. de API heeft 3 entiteiten die ee
      - HTTP (Protocol voor communicatie tussen client en server) methoden: GET POST PUT DELETE
      - JSON
      - Data Annotations (Validatie van data in C#)
+     - Entity Framework voor databasebeheer
+     - Automapper voor dataconversie
+     - Serilog voor logging
     
 * switch between an in-memory database and a SQL Server database
