@@ -6,15 +6,15 @@ namespace lampen.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ManufacturersController : Controller
+    public class ManufacturersController : ControllerBase
     {
-        private readonly IManufacturerData _manufacturerService;
+        private readonly IManufacturerData _manufacturerService; //DI
         public ManufacturersController(IManufacturerData manufacturerService)
         {
             _manufacturerService = manufacturerService;
         }
 
-        [HttpGet]
+        [HttpGet] //haalt alle fabrikanten op
         [Route("/api/manufacturers")]
         public async Task<ActionResult<List<Manufacturer>>> GetAllManufacturers()
         {
@@ -22,7 +22,7 @@ namespace lampen.Controllers
             return Ok(manufacturers);
         }
 
-        [HttpGet]
+        [HttpGet] //haalt specifieke fabrikant op
         [Route("/api/manufacturers/{id}")]
         public async Task<ActionResult<Manufacturer>> GetManufacturerById(int id)
         {
@@ -34,7 +34,7 @@ namespace lampen.Controllers
             return Ok(manufacturer);
         }
 
-        [HttpPost]
+        [HttpPost] //fabrikant toevoegen
         [Route("/api/manufacturers/create")] 
         public async Task<ActionResult>? CreateManufacturer(Manufacturer newManufacturer)
         {
@@ -52,7 +52,7 @@ namespace lampen.Controllers
 
         }
         
-        [HttpPut]
+        [HttpPut] //bestaande fabrikant bijwerken
         [Route("/api/manufacturers/{id}")]
         public async Task<ActionResult> UpdateManufacturer(int id, [FromBody] Manufacturer updatedManufacturer)
         {
@@ -78,7 +78,7 @@ namespace lampen.Controllers
             return NoContent();  // 204 No Content on successful update
         }
 
-        [HttpDelete]
+        [HttpDelete] //fabrikant verwijderen
         [Route("/api/manufacturers/{id}")]
         public async Task<ActionResult> DeleteManufacturer(int id)
         {
@@ -92,7 +92,6 @@ namespace lampen.Controllers
 
             return NoContent();  // 204 No Content on successful deletion
         }
-
 
     }
 }

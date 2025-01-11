@@ -6,7 +6,7 @@ namespace lampen.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class StylesController : Controller
+    public class StylesController : ControllerBase
     {
         private readonly IStyleData _styleService;
 

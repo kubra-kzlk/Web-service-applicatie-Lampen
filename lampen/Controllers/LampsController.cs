@@ -45,8 +45,7 @@ namespace lampen.Controllers
         {
             //Wanneer de client ongeldige gegevens probeert te posten, willen we een HTTP Status Code 400 (Bad Request) retourneren. Dit kan door de ingebouwde validatie van ASP.NET Core te gebruiken.
             //We kunnen de ModelState.IsValid controle gebruiken in de actie die verantwoordelijk is voor het maken van entiteiten.Wanneer de validatie mislukt, sturen we een BadRequest met de validatiefouten.
-            // Controleer de validatie van het model
-            if (!ModelState.IsValid)
+            if (!ModelState.IsValid)// Controleer de validatie van het model
             {
                 return BadRequest(ModelState); // Dit stuurt de validatiefouten terug
             }
@@ -63,8 +62,7 @@ namespace lampen.Controllers
         [Route("/api/lamps/{id}")]
         public async Task<ActionResult> UpdateLamp(int id, [FromBody] Lamp updatedLamp)
         {
-            // Validatie van het model
-            if (!ModelState.IsValid)
+            if (!ModelState.IsValid) // Validatie van het model
             {
                 return BadRequest(ModelState);
             }
