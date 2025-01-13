@@ -1,6 +1,6 @@
-# vak API Ontwikkeling 2024 2e jaar
+# 2024 project web API lampen
 
-Web Services-applicatie (RESTful API) opbouw met ASP.NET Core. Een webservice is een applicatie die communicatie tussen systemen mogelijk maakt via internetprotocollen. Dit wordt gedaan adhv de REST API manier:  HTTP-methoden (GET, POST, PUT, DELETE) en gebruikt dataformaat JSON.
+Web Services-applicatie (RESTful API) opbouw met ASP.NET Core. Een webservice is een applicatie die communicatie tussen systemen mogelijk maakt via internetprotocollen. Dit wordt gedaan adhv de REST API manier:  HTTP-methoden (GET, POST, PUT, DELETE) en gebruikt dataformaat JSON. Omdat de focus op het bouwen van API’s ligt en niet op het bouwen van websites, wordt er geen views (MVC) gebruikt en kan je enkel data terugsturen (en ontvangen) in JSON formaat.
 
 de API heeft 3 entiteiten en zijn als volgt gerelateerd:
 •	Een lamp verwijst naar een fabrikant via een fabrikantId.
